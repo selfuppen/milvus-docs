@@ -58,7 +58,7 @@ client.update_password(
 ```python
 client.list_users()
 
-# output:
+# output
 # ['root', 'user_1']
 ```
 
@@ -67,7 +67,7 @@ client.list_users()
 ```python
 client.describe_user(user_name='user_1')
 
-# output:
+# output
 # {'user_name': 'user_1', 'roles': ()}
 ```
 
@@ -88,7 +88,7 @@ After creating a role, you can:
 ```python
 client.list_roles()
 
-# output:
+# output
 # ['admin', 'public', 'roleA']
 ```
 
@@ -120,7 +120,7 @@ client.describe_role(
     role_name='roleA'
 )
 
-# output:
+# output
 # {'role': 'roleA',
 #  'privileges': [{'object_type': 'User',
 #    'object_name': 'user_1',
@@ -150,8 +150,8 @@ client.describe_user(
     user_name='user_1'
 )
 
-# output:
-# {'user_name': 'user_1', 'roles': ('roleA',)}
+# output
+# {'user_name': 'user_1', 'roles': ('roleA')}
 ```
 
 ## 6. Revoke privileges
