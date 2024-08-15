@@ -34,9 +34,9 @@ Use [MilvusClient](https://milvus.io/api-reference/node/v2.4.x/Client/MilvusClie
 </div>
 
 <div class="multipleCode">
-    <a href="#python"">Python </a>
-    <a href="#java"">Java</a>
-    <a href="#javascript"">Node.js</a>
+    <a href="#python">Python </a>
+    <a href="#java">Java</a>
+    <a href="#javascript">Node.js</a>
 </div>
 
 ```python
