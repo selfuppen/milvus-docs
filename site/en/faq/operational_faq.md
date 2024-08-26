@@ -6,10 +6,6 @@ title: Operational FAQ
 
 # Operational FAQ
 
-<!-- TOC -->
-
-
-<!-- /TOC -->
 
 #### What if I failed to pull the Milvus Docker image from Docker Hub?
 
@@ -84,7 +80,7 @@ Yes. You can install Milvus in an offline environment. See [Install Milvus Offli
 
 The Milvus log is printed to stout (standard output) and stderr (standard error) by default, however we highly recommend redirecting your log to a persistent volume in production. To do so, update `log.file.rootPath` in **milvus.yaml**. And if you deploy Milvus with `milvus-helm` chart, you also need to enable log persistence first via `--set log.persistence.enabled=true`. 
 
-If you didn't change the config, using kubectl logs <pod-name> or docker logs CONTAINER can also help you to find the log.
+If you didn't change the config, using kubectl logs POD_NAME or docker logs CONTAINER can also help you to find the log.
 
 
 #### Can I create index for a segment before inserting data into it?
